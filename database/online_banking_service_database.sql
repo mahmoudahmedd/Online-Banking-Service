@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 22, 2020 at 03:16 AM
+-- Generation Time: Dec 22, 2020 at 03:25 AM
 -- Server version: 10.4.11-MariaDB
 -- PHP Version: 7.2.28
 
@@ -97,7 +97,8 @@ INSERT INTO `customers` (`customer_id`, `email`, `password`, `name`, `address`, 
 -- Indexes for table `bank_accounts`
 --
 ALTER TABLE `bank_accounts`
-  ADD PRIMARY KEY (`bank_account_id`);
+  ADD PRIMARY KEY (`bank_account_id`),
+  ADD KEY `customer_id` (`customer_id`);
 
 --
 -- Indexes for table `bank_transactions`
@@ -139,6 +140,12 @@ ALTER TABLE `customers`
 --
 -- Constraints for dumped tables
 --
+
+--
+-- Constraints for table `bank_accounts`
+--
+ALTER TABLE `bank_accounts`
+  ADD CONSTRAINT `bank_accounts_ibfk_1` FOREIGN KEY (`customer_id`) REFERENCES `customers` (`customer_id`);
 
 --
 -- Constraints for table `bank_transactions`
