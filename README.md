@@ -14,6 +14,13 @@ A website for online banking service to manage transfer transaction in Java Serv
   <img src="diagrams/ERD.png"/>
 </p>
 
+## Screen Capture
+<p align="center">
+  <img src="screencapture/screencapture-localhost-8080-OnlineBankingService-login-html-2020-12-22-05_06_55.png"/>
+  <img src="screencapture/screencapture-localhost-8080-OnlineBankingService-dashboard-jsp-2020-12-22-05_05_17.png"/>
+  <img src="screencapture/screencapture-localhost-8080-OnlineBankingService-BankTransactionController-2020-12-22-05_06_40.png"/>
+</p>
+
 <!-- CONTRIBUTING -->
 ## Contributing
 
