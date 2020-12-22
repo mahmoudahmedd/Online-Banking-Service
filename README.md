@@ -4,6 +4,12 @@
 # Online Banking Service
 A website for online banking service to manage transfer transaction in Java Servlet and JSP.
 
+## Built With
+* [Java](https://en.wikipedia.org/wiki/Java_(programming_language))
+* [Jakarta Servlet & JSP](https://en.wikipedia.org/wiki/Jakarta_Servlet)
+* [MySQL](https://www.mysql.com/)
+* [HTML5 & CSS3]()
+
 ## ERD
 <p align="center">
   <img src="diagrams/ERD.png"/>
