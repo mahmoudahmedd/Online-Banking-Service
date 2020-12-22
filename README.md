@@ -5,7 +5,6 @@
 A website for online banking service to manage transfer transaction in Java Servlet and JSP.
 
 ## ERD
------------
 <p align="center">
   <img src="diagrams/ERD.png"/>
 </p>
