@@ -62,22 +62,7 @@
                 <h2 class="font-weight-400 mb-3">Transactions</h2>
                 
                 <!-- All Transactions -->
-                <div class="bg-light shadow-sm rounded py-4 mb-4">
-                    <h3 class="text-5 font-weight-400 d-flex align-items-center px-4 mb-3">All Transactions</h3>
-                    <!-- Title -->
-                    <div class="transaction-title py-2 px-4">
-                        <div class="row">
-                            <div class="col-2 col-sm-1 text-center"><span class="">Date</span></div>
-                            <div class="col col-sm-7">Status</div>
-                            <div class="col-3 col-sm-4 text-right">Amount</div>
-                        </div>
-                    </div>
-                    <!-- Title End -->
-                    
-                    <!-- Transaction List -->
-                    <%@ include file="parts/logged_in/sections/transaction_list.jsp" %>
-                    <!-- Transaction List End -->
-                </div>
+                <%@ include file="parts/logged_in/sections/transaction_list.jsp" %>
                 <!-- All Transactions End -->
             </div>
             <!-- Middle End -->
